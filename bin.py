@@ -1,4 +1,4 @@
-def binary_search(arr, key, n):
+def binary_search(arr, key, n): #binary search method
     left = 0
     right = n - 1
 
@@ -16,7 +16,7 @@ def binary_search(arr, key, n):
 
 
 arr = [11, 12, 22, 33, 44]   # sorted array
-key = 99
+key = 22
 n = len(arr)
 
 result = binary_search(arr, key, n)
